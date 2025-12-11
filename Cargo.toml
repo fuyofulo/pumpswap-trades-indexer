@@ -1,0 +1,13 @@
+[package]
+name = "pumpswap-indexing"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+tokio = { version = "1.48.0", features = ["full"] }
+dotenv = "0.15"
+solana-sdk = "2.1.18"
+yellowstone-grpc-client = "4.0.0"
+yellowstone-grpc-proto = "4.0.0"
+tonic = { version = "0.12.3", features = ["tls", "tls-roots"] }
+futures = "0.3"
