@@ -22,11 +22,11 @@ It subscribes to PumpSwap program activity over Yellowstone gRPC, detects buy an
 
 ## Run
 
-Set the environment (a `.env` file works):
+Set the environment (a `.env` file works). ParaFi runs a free public Yellowstone endpoint:
 
 ```dotenv
-YELLOWSTONE_ENDPOINT=http://<geyser-grpc-host>:10000
-YELLOWSTONE_TOKEN=<auth-token>   # optional
+YELLOWSTONE_ENDPOINT=https://solana-rpc.parafi.tech:10443
+YELLOWSTONE_TOKEN=<auth-token>   # optional, not needed for the ParaFi endpoint
 ```
 
 Then:
